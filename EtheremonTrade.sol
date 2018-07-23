@@ -149,14 +149,6 @@ contract EtheremonTrade is EtheremonEnum, BasicAccessControl, SafeMath {
     
     uint8 constant public GEN0_NO = 24;
 
-    struct MonsterClassAcc {
-        uint32 classId;
-        uint256 price;
-        uint256 returnPrice;
-        uint32 total;
-        bool catchable;
-    }
-
     struct MonsterObjAcc {
         uint64 monsterId;
         uint32 classId;
